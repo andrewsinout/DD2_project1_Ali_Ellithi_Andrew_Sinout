@@ -32,3 +32,12 @@ assign cout= cout1[n-1];
 
 
 endmodule
+
+
+module fullAdder(
+   input A,B,cin, output sum, cout);
+   
+   
+   
+  assign {cout, sum}= A+B+cin;
+endmodule
